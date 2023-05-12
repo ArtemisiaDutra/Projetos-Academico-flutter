@@ -1,0 +1,7 @@
+name: 'My_App'
+
+dependencies: 
+  http: 
+
+environment:
+  sdk: '^2.12.0'
