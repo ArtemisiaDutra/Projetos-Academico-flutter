@@ -1,0 +1,84 @@
+
+
+https://dummyjson.com/docs/products
+
+
+fetch('https://dummyjson.com/products')
+.then(res => res.json())
+.then(console.log);
+
+
+Coloca na internet
+https://dummyjson.com/products
+
+
+Mapeamear o caminho:
+Nome e Categoria
+
+Entrar no products
+????
+
+
+
+
+
+https://jsonplaceholder.typicode.com/
+
+
+Resources
+JSONPlaceholder comes with a set of 6 common resources:
+
+/posts	100 posts
+/comments	500 comments ( clica nesse link)
+/albums	100 albums
+/photos	5000 photos
+/todos	200 todos
+/users	10 users
+*******************
+
+https://jsonplaceholder.typicode.com/comments
+
+
+
+Lista pertece ao produto
+é um obeto que tem dentro dele uma lista de objetos
+
+[p_el] --> está acessando os produtos na posição zero.
+{} string
+[] número
+
+
+podrutos ['products'][0]['title'] --> interação de objetos entre lista
+
+
+*******************
+Como acessar o email e body?
+[email] [body]
+
+comentarios [0] ['email'] - através de índices
+
+
+[lista de todos
+	{lista
+	"postId": 1,
+    "id": 2,
+    "name": "quo vero reiciendis velit similique earum",
+    "email": "Jayne_Kuhic@sydney.com",
+    "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+
+
+
+              Text("Cálculo de Preços"),
+                Text("Acompanhamento de Projetos")
+}
+
+]
+
+
+
+                      return ListTile(title: Text('Nome:'),
+                      subtitle: Text('Email'),
+                      trailing: Text('Id'),);
+
+
+return Text('Nome:${snapshot.data[index]['name']}');
